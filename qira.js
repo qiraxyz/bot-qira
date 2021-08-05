@@ -82,7 +82,7 @@ const banned = [
 const premium = [
   ];
 const ownerNumber = [
-  "6282223014661@s.whatsapp.net",
+  "6289601007614@s.whatsapp.net",
   ];
 
 //-- Apikey
@@ -380,7 +380,7 @@ case 'help':
   if (!isVerify) return reply(userB(prefix))
 	uptime = process.uptime()
   capt = `Total Hits : ${reqcmd} \n‣ Rating : ★★★★☆\n‣ Jumlah User : ${_user.length}`
-  thum = await fs.readFileSync('./docs/mrf.jpeg').toString('base64')
+  thum = await fs.readFileSync('./docs/qira.jpeg').toString('base64')
   if (args.length < 1) return replyimg(menu(tanggal, jam, pushname, sender, prem_, qiraxyz, prefix, _user, uptime, isGroupAdmins, groupMetadata, groupAdmins, Welcome_, AntiLink_, isGroup, process), text, capt, thum)
   if (args[0] === '1' ) {
    return replyimg(menu1(prefix, tanggal, jam), text, capt, thum)
@@ -418,7 +418,7 @@ case 'simi':
 if (!isVerify) return reply(userB())
 		if (args.length < 1) return reply(`Hai ${pushname}`)
 		sims = value
-		simt = await fs.readFileSync('./media/mrf.jpeg').toString('base64')
+		simt = await fs.readFileSync('./media/qira.jpeg').toString('base64')
 					try {
 		anu = await fetchJson(`https://fdciabdul.tech/api/ayla/?pesan=${sims}`, {method: 'get'})
     jawab = anu.jawab
@@ -1127,9 +1127,9 @@ case 'toimg':
 
 //-- owner bot
 case 'owner':
-    nomor = '6282223014661@s.whatsapp.net'
-    owner = await fs.readFileSync('./docs/mrf.jpeg').toString('base64')
-    capt = "𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿\nIG : Mrf.zvx\nWhatsapp BOT : I'm qira V.3"
+    nomor = '6289601007614@s.whatsapp.net'
+    owner = await fs.readFileSync('./docs/qira.jpeg').toString('base64')
+    capt = "owner bot"
     const been = {
     text: `@${nomor.split("@")[0]} Nih Owner ku, chat aja kalo ada perlu`,
   contextInfo: {
