@@ -1,1 +1,1 @@
-worker: node qira.js
+worker: node index.js
