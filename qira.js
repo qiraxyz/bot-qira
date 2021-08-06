@@ -1,7 +1,8 @@
-!// Kalau ada typo atau sesuatu yang masih kurang bantu perbaiki ya, Pull Request aja
+// Kalau ada typo atau sesuatu yang masih kurang bantu perbaiki ya, Pull Request aja
 
 //-- Whatsapp Connecting
-const {
+const 
+  {
   WAConnection,
   MessageType,
   Presence,
